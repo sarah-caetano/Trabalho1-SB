@@ -37,4 +37,5 @@ Para executá-lo:
 ./montador (funcionamento) (arquivo de entrada) (arquivo de saida)
 
 exemplo para compilar o arquivo AREATRIANGLE.s:
+
 .\montador.exe -o .\AREATRIANGLE.s saida.obj
