@@ -1,7 +1,6 @@
 # Trabalho1-SB
-Nome: Sarah Caetano de Almeida
-Matrícula: 180130811
-Disciplina: Software Básico
+Sarah Caetano de Almeida
+Disciplina de Software Básico \n
 Trabalho 1: Tradutor / Assembler
 
 Esse trabalho consiste em um programa escrito em C++ no Windows versão 21H2, 
