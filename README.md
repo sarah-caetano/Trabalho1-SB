@@ -17,11 +17,17 @@ Consiste de análise léxica, sintática e semântica. Ele obtem os parâmetros
 para seu funcionamento pela linha de comando do terminal, sendo o parâmetro:
 
 0 = executável
+
 1 = funcionamento 
+
     1.1 -p: processa EQU e IF
+    
     1.2 -m: processa MACROS
+    
     1.3 -o: faz a tradução em duas passagens
+    
 2 = arquivo de entrada
+
 3 = arquivo de saída
 
 Para a compilação do programa, deve-se utilizar a seguinte linha:
