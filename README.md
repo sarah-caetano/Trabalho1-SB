@@ -1,6 +1,8 @@
 # Trabalho1-SB
 Sarah Caetano de Almeida
-Disciplina de Software Básico \n
+
+Disciplina de Software Básico
+
 Trabalho 1: Tradutor / Assembler
 
 Esse trabalho consiste em um programa escrito em C++ no Windows versão 21H2, 
