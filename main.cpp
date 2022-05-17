@@ -21,14 +21,14 @@ int main(int argc, char *argv[]){
 	
 	Montador->faz_listas();// coloca no vetor de diretivas e instrucoes
 	if (Montador->faltaENDMACRO() == 0){
-		if (stricmp(argv[1], "-m") == 0){ // processamento da MACRO
+		if (strcmp(argv[1], "-m") == 0){ // processamento da MACRO
 			Montador->is_m = 1;			
 			Montador->processaMACRO();
 		}
-		else if (stricmp(argv[1], "-p") == 0){ // processamento EQU e IF
+		else if (strcmp(argv[1], "-p") == 0){ // processamento EQU e IF
 			Montador->processaEQU();
 		}
-		else if (stricmp(argv[1], "-o") == 0){ // TRADUTOR DE 2 passagens
+		else if (strcmp(argv[1], "-o") == 0){ // TRADUTOR DE 2 passagens
 			Montador->is_tradutor = 1;
 			Montador->primeira_passagem();
 			if (Montador->simbolo_errado == 0 &&  Montador->token_errado == 0 && Montador->doisRotulos == 0 && Montador->rotulo_igual == 0){ // Não tem tokens nem simbolos invalidos nem dois rótulos na msma linha
